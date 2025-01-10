@@ -8,9 +8,9 @@ spec:
     namespace: default
     server: https://kubernetes.default.svc
   project: default
-  source: https://github.com/antheakl/kubelab-incluster
+  source: 
     path: apps/kubelab-app
-    repoURL: 
+    repoURL: https://github.com/antheakl/kubelab-incluster
     targetRevision: HEAD
   syncPolicy:
     automated: {}
